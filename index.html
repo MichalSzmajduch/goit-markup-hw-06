@@ -121,43 +121,39 @@
                 <label class="label">
                   <textarea
                     name="textarea"
-                    rows="5"
+                    rows="7"
                     width="100%"
                     placeholder="Wprowadź text"
                     class="input textarea-style"
                   ></textarea>
                 </label>
               </div>
-              <form class="checkbox">
-                <div class="checkbox-control">
-                  <input
-                    type="checkbox"
-                    name="checkbox"
-                    value="akceptuje"
-                    class="form-checkbox"
-                    id="check"
-                  />
-                  <label class="label-checkbox" for="check">
-                    <svg width="11" height="8" class="checkbox-icon">
-                      <use href="./images/icons.svg#icon-Vector-4"></use>
-                    </svg>
-                  </label>
-                </div>
-                <p class="form-text">
-                  Oświadczam iż akceptuję
-                  <a href="Regulamin" rel="#" class="form-links">Regulamin</a>
-                  i
-                  <a
-                    href="Politykę
-                Prywatności"
-                    rel="#"
-                    class="form-links"
-                    >Politykę Prywatności.</a
-                  >
-                </p>
 
-                <button type="submit" class="form-button">Wyślij</button>
-              </form>
+              <div class="checkbox-control">
+                <input
+                  type="checkbox"
+                  name="checkbox"
+                  value="akceptuje"
+                  class="form-checkbox"
+                  id="check"
+                />
+                <label class="label-checkbox" for="check">
+                  <svg width="11" height="8" class="checkbox-icon">
+                    <use href="./images/icons.svg#icon-Vector-4"></use>
+                  </svg>
+                  <svg width="16" height="15" class="">
+                    <use href="./images/icons.svg#icon-Vector-5-1"></use>
+                  </svg>
+                </label>
+                <span class="rules"
+                  >Oświadczam iż akceptuję
+                  <a href="#" class="form-links"> Regulamin </a> i
+                  <a href="#" class="form-links">
+                    Politykę Prywatności.</a
+                  ></span
+                >
+              </div>
+              <button type="submit" class="form-button">Wyślij</button>
             </form>
           </div>
         </div>
@@ -503,7 +499,7 @@
             placeholder="E-mail"
             class="footer-input"
           />
-          <button type="sumbit" class="footer-btn">
+          <button type="submit" class="footer-btn">
             Zapisz się
             <svg width="24" height="24" class="footer-icon-btn">
               <use href="./images/icons.svg#icon-icon-send-1"></use>
