@@ -707,7 +707,6 @@
 .input {
   border: none;
   outline: none;
-  margin-left: 12px;
 }
 .label {
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -716,7 +715,9 @@
   padding: 11px;
   margin: 0;
   margin-bottom: 10px;
-  transition: border-color fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .label:focus-within {
   border-color: var(--logo-color);
@@ -734,6 +735,7 @@
 .textarea-style {
   resize: none;
   width: 100%;
+  padding: 1px 5px;
 }
 
 .form-links {
